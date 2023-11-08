@@ -78,8 +78,8 @@
 .products{
   width: 100%;
   position: absolute;
-  top: 25%;
-  transform: translateY(-25%);
+  top: 50%;
+  transform: translateY(-50%);
   text-align: center;
   color: #fff;
 }
@@ -91,6 +91,10 @@
   margin: 20px auto;
   font-weight: 100;
   line-height: 25px;
+}
+.products img{
+  width: 150px;
+  padding: 20px;
 }
 
 /*Botón Discord*/
@@ -172,3 +176,8 @@
 .button2:hover {
     border: 0;
   }
+
+.cafe{
+  margin-left: 64.75%;
+  width: 25%;
+}
